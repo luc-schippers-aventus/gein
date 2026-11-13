@@ -1,3 +1,4 @@
+# discord-letter-hider
 text = input("$> ")
 
 output = ""
