@@ -21,10 +21,13 @@ async function searchPokemon(i)
 
     const content = document.createElement("p")
     content.style = "font-size: 30px"
+    // hier moet ik nog wat dingentjes toevoegen :3
     content.innerHTML = `
     <ul>
         <li>Name: ${data.name}</li>
-        <li> Height: ${data.height}</li>
+        <li>Height: ${data.height}</li>
+        <li>Weight: ${data.weight}</li>
+        <li>Abilities: ${data.abilities.length}</li>
     </ul>
     `
 
